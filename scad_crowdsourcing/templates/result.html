@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Look For Help?</title>
+	<link href="/statics/stylesheets/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	    	 <a class="navbar-brand" href="/" style="color: #dddddd;">Look For Help</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	    </div>
+	  </div>
+	</nav>
+    
+	<header class="jumbotron" id="overview">
+		<div class="container subhead col-md-8 col-md-offset-2">
+		  	<div class="panel panel-success">
+				<div class="panel-heading" style="text-align: center;">
+					<h3 id="question"></h3>
+				</div>
+				<div class="panel-body hide" style="text-align: center;">
+					<div class="col-md-10">
+						<p onclick="shareQuestion()">Post This Question on My Facebook</p>
+					</div>
+					<div class="col-md-2">
+						<p id="likes"></p>
+					</div>
+				</div>
+				<ul class="list-group" id="answer-list">
+				</ul>
+				</div>
+		  	</div>
+		</div>
+    </header>
+    
+</body>
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/statics/javascripts/result.js"></script>
+<script src="/statics/javascripts/bootstrap.js"></script>
+</html>
